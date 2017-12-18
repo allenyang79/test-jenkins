@@ -6,5 +6,10 @@ pipeline {
         sh 'echo "hello"'
       }
     }
+    stage('task-2') {
+      steps {
+        sh 'echo "hello"'
+      }
+    }
   }
 }
